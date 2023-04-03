@@ -7,8 +7,15 @@ def minWindow(s, t):
     for i in t:
         count[i] = 1
     
+    print(count)
+    
     # Start comparing
     smallest = (-1, -1)
+    index = (-1, -1)
+    l = 0
+
+    while l < len(s) - len(t):
+        break
 
     return
     
